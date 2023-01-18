@@ -1,0 +1,23 @@
+/* Stylesheet for Builder Site.
+Elrico Landrew - 18 January 2023. */
+
+/*Reset box sizing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.wrapper {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 99vh;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
